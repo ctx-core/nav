@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "13.3.33",
+	"version": "13.3.34",
 	"description": "ctx-core nav",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@ctx-core/fontawesome": "^10.2.30",
-		"@ctx-core/sass": "^6.3.13",
+		"@ctx-core/sass": "^6.3.14",
 		"typescript": "^3.7.3"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
