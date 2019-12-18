@@ -30,7 +30,7 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"svelte": "^3.16.4"
+		"svelte": "^3.16.5"
 	},
 	"devDependencies": {
 		"@ctx-core/fontawesome": "^10.2.34",
