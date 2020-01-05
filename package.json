@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "13.3.48",
+	"version": "13.4.0",
 	"description": "ctx-core nav",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -30,12 +30,12 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^6.5.0",
+		"@ctx-core/object": "^7.0.0",
 		"svelte": "^3.16.7"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "^10.2.42",
-		"@ctx-core/sass": "^6.4.4",
+		"@ctx-core/fontawesome": "^10.2.43",
+		"@ctx-core/sass": "^6.4.5",
 		"typescript": "^3.7.4"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
