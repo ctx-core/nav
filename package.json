@@ -30,12 +30,12 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^8.0.4",
+		"@ctx-core/object": "^8.0.5",
 		"svelte": "^3.20.1"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "^10.2.63",
-		"@ctx-core/sass": "^6.4.16",
+		"@ctx-core/fontawesome": "^10.2.64",
+		"@ctx-core/sass": "^6.4.17",
 		"typescript": "^3.8.3"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
