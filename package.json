@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "13.4.25",
+	"version": "13.4.26",
 	"description": "ctx-core nav",
 	"main": "lib.js",
 	"module": "lib.js",
