@@ -31,7 +31,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "^8.0.9",
-		"svelte": "^3.22.2"
+		"svelte": "^3.22.3"
 	},
 	"devDependencies": {
 		"@ctx-core/fontawesome": "^10.2.74",
