@@ -2,9 +2,7 @@
 	"name": "@ctx-core/nav",
 	"version": "13.4.37",
 	"description": "ctx-core nav",
-	"main": "lib.js",
-	"module": "lib.js",
-	"types": "lib.ts",
+	"type": "module",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
