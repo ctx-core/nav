@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "13.4.41",
+	"version": "13.4.42",
 	"description": "ctx-core nav",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -31,8 +31,8 @@
 		"svelte": "^3.23.0"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "^10.2.80",
-		"@ctx-core/sass": "^6.4.33",
+		"@ctx-core/fontawesome": "^10.2.81",
+		"@ctx-core/sass": "^6.4.34",
 		"typescript": "^3.9.3"
 	},
 	"gitHead": "2856fcace3a15c4eb58dc1455f2324892f53a456"
