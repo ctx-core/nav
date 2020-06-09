@@ -28,12 +28,12 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "^8.0.14",
-		"svelte": "^3.23.0"
+		"svelte": "^3.23.1"
 	},
 	"devDependencies": {
 		"@ctx-core/fontawesome": "^10.2.81",
 		"@ctx-core/sass": "^6.4.34",
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "2856fcace3a15c4eb58dc1455f2324892f53a456"
 }
