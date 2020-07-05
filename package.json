@@ -33,7 +33,7 @@
 	"devDependencies": {
 		"@ctx-core/fontawesome": "^10.2.83",
 		"@ctx-core/sass": "^6.4.36",
-		"typescript": "^3.9.5"
+		"typescript": "^3.9.6"
 	},
 	"gitHead": "2856fcace3a15c4eb58dc1455f2324892f53a456"
 }
