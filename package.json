@@ -2,6 +2,9 @@
 	"name": "@ctx-core/nav",
 	"version": "13.4.52",
 	"description": "ctx-core nav",
+	"main": "index.js",
+	"modules": "index.js",
+	"types": "index.js",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
