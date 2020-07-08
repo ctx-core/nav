@@ -2,7 +2,7 @@
 	"name": "@ctx-core/nav",
 	"version": "13.4.54",
 	"description": "ctx-core nav",
-	"main": "index.js",
+	"main": "./index.js",
 	"modules": "index.js",
 	"types": "index.js",
 	"scripts": {
