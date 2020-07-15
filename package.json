@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "13.4.60",
+	"version": "13.4.61",
 	"description": "ctx-core nav",
 	"main": "./index.js",
 	"modules": "index.js",
@@ -34,7 +34,7 @@
 		"svelte": "^3.24.0"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "^10.2.97",
+		"@ctx-core/fontawesome": "^10.2.98",
 		"@ctx-core/sass": "^6.4.43",
 		"typescript": "^3.9.6"
 	},
