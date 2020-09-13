@@ -2,42 +2,42 @@
 	"name": "@ctx-core/nav",
 	"version": "13.4.113",
 	"description": "ctx-core nav",
-	"main": "./index.js",
-	"modules": "index.js",
-	"types": "index.js",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/nav/issues"
-	},
 	"keywords": [
 		"ctx-core",
 		"nav",
 		"yarn"
 	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
+	"homepage": "https://github.com/ctx-core/nav#readme",
 	"bugs": {
 		"url": "https://github.com/ctx-core/nav/issues"
 	},
-	"homepage": "https://github.com/ctx-core/nav#readme",
-	"publishConfig": {
-		"access": "public"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/nav/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"types": "index.js",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^10.0.4",
+		"@ctx-core/object": "workspace:*",
 		"svelte": "^3.25.0"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "^10.2.144",
-		"@ctx-core/sass": "^7.1.10",
+		"@ctx-core/fontawesome": "workspace:*",
+		"@ctx-core/sass": "workspace:*",
 		"typescript": "^4.0.2"
 	},
-	"gitHead": "ac115ab566440f2ffad5a8feb87d3c6cc93daf00"
+	"publishConfig": {
+		"access": "public"
+	},
+	"gitHead": "ac115ab566440f2ffad5a8feb87d3c6cc93daf00",
+	"modules": "index.js"
 }
