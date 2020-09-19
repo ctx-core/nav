@@ -1,5 +1,17 @@
 # @ctx-core/nav
 
+## 14.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.0.0
+  - @ctx-core/object@12.0.0
+
 ## 13.4.115
 
 ### Patch Changes
