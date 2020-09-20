@@ -1,44 +1,43 @@
 {
-  "name": "@ctx-core/nav",
-  "version": "14.0.0",
-  "description": "ctx-core nav",
-  "keywords": [
-    "ctx-core",
-    "nav",
-    "yarn"
-  ],
-  "homepage": "https://github.com/ctx-core/nav#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/nav/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/nav/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "types": "index.js",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/function": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "svelte": "~3.25.1"
-  },
-  "devDependencies": {
-    "@ctx-core/fontawesome": "workspace:*",
-    "@ctx-core/sass": "workspace:*",
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "ac115ab566440f2ffad5a8feb87d3c6cc93daf00",
-  "modules": "index.js"
+	"name": "@ctx-core/nav",
+	"version": "14.0.0",
+	"description": "ctx-core nav",
+	"keywords": [
+		"ctx-core",
+		"nav",
+		"yarn"
+	],
+	"homepage": "https://github.com/ctx-core/nav#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/nav/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/nav/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"types": "index.js",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"svelte": "~3.25.1"
+	},
+	"devDependencies": {
+		"@ctx-core/fontawesome": "workspace:*",
+		"@ctx-core/sass": "workspace:*",
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"modules": "index.js"
 }
