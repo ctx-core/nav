@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 14.0.17
+
+### Patch Changes
+
+- svelte: 3.27.0 -> 3.28.0
+
 ## 14.0.16
 
 ### Patch Changes
