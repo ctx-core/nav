@@ -1,4 +1,4 @@
-import { Writable } from 'svelte/store';
+import { Writable } from '@ctx-core/store';
 export declare type $type__opened__nav = boolean;
 export interface type__opened__nav extends Writable<$type__opened__nav> {
     toggle__nav: () => void;

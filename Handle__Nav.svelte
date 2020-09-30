@@ -1,5 +1,5 @@
 <script>
-import { get } from 'svelte/store'
+import { get } from '@ctx-core/store'
 import { toggle__nav, __opened__nav } from './store'
 import FA_bars_solid from '@ctx-core/fontawesome/ui/FA-bars-solid.svelte'
 function __click__window(event) {

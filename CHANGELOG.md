@@ -1,5 +1,14 @@
 # @ctx-core/nav
 
+## 14.0.21
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+
 ## 14.0.20
 
 ### Patch Changes

@@ -1,4 +1,4 @@
-import { Writable, writable } from 'svelte/store'
+import { Writable, writable } from '@ctx-core/store'
 import { _b, assign } from '@ctx-core/object'
 import { not } from '@ctx-core/function'
 export type $type__opened__nav = boolean
