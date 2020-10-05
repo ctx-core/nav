@@ -33,8 +33,8 @@
 		"svelte": "3.29.0"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "workspace:^11.0.53",
-		"@ctx-core/sass": "workspace:^8.0.29",
+		"@ctx-core/fontawesome": "workspace:^11.0.54",
+		"@ctx-core/sass": "workspace:^8.0.30",
 		"typescript": "^4.0.3"
 	},
 	"publishConfig": {
