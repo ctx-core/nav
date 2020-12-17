@@ -1,13 +1,13 @@
 import { _b, assign } from '@ctx-core/object'
 import { not } from '@ctx-core/function'
 import { Writable, writable } from '@ctx-core/store'
-export const nav_opened_b = _b<nav_opened_type>('nav_opened', ()=>{
-	const nav_opened = writable(false) as nav_opened_type
+export const nav_opened_b = _b('nav_opened', ()=>{
+	const nav_opened = writable(false)
 	return assign(nav_opened, {
 		open_nav,
 		close_nav,
 		toggle_nav,
-	})
+	}) as nav_opened_type
 	function toggle_nav() {
 		nav_opened.update(not)
 	}
