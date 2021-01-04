@@ -1,5 +1,5 @@
 import { Writable } from '@ctx-core/store';
-export declare const nav_opened_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => nav_opened_type;
+export declare const nav_opened_b: import("@ctx-core/object").be_type<nav_opened_type, object>;
 export declare type $nav_opened_type = boolean;
 export interface nav_opened_type extends Writable<$nav_opened_type> {
     toggle_nav: () => void;
