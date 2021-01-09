@@ -1,5 +1,14 @@
 # @ctx-core/nav
 
+## 14.1.25
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.8.2
+  - @ctx-core/object@16.0.2
+  - @ctx-core/store@23.2.1
+
 ## 14.1.24
 
 ### Patch Changes
