@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@ctx-core/fontawesome": "workspace:^12.0.8",
-		"@ctx-core/sass": "workspace:^9.0.3",
+		"@ctx-core/sass": "workspace:^9.1.0",
 		"typescript": "^4.1.3"
 	},
 	"publishConfig": {
