@@ -3,18 +3,18 @@ export let selected = false
 export let href = ''
 export let alt = ''
 export let title = ''
-export let class__a = ''
+export let a_class = ''
 </script>
 
 <div
-	class="Item__Nav {$$props.class||''}"
+	class="Nav_Item {$$props.class||''}"
 	class:selected
 >
-	<slot name="in"><a class="default_a {class__a}" {href} {alt} {title} on:click><slot></slot></a></slot>
+	<slot name="in"><a class="default_a {a_class}" {href} {alt} {title} on:click><slot></slot></a></slot>
 </div>
 
 <style type="text/scss">
-:global(.Item__Nav a) {
+:global(.Nav_Item a) {
 	text-decoration: none;
 	&:focus {
 		outline: 0;

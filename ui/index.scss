@@ -1,5 +1,5 @@
-@mixin Handle__Nav(
-	$root: '.Handle__Nav',
+@mixin Nav_Handle(
+	$root: '.Nav_Handle',
 	$width--wide: 1400px,
 	$height: 2rem,
 	$width: 2rem,
@@ -23,20 +23,20 @@
 		}
 	}
 }
-@mixin in-Content__Nav($root: '.Content__Nav') {
+@mixin in-Nav_Content($root: '.Nav_Content') {
 	#{$root} {
 		@content;
 	}
 }
-@mixin in-Item__Nav($root: '.Content__Nav') {
-	@include in-Content__Nav($root: $root) {
-		.Item__Nav {
+@mixin in-Nav_Item($root: '.Nav_Content') {
+	@include in-Nav_Content($root: $root) {
+		.Nav_Item {
 			@content;
 		}
 	}
 }
-@mixin Content__Nav(
-	$root: '.Content__Nav',
+@mixin Nav_Content(
+	$root: '.Nav_Content',
 	$width--wide: 1400px,
 	$line-height: inherit
 ) {
@@ -57,11 +57,11 @@
 			padding: 0;
 			z-index: 2;
 		}
-		&.opened__nav {
+		&.nav_opened {
 			right: 0;
 		}
 	}
-	@include in-Item__Nav($root: $root) {
+	@include in-Nav_Item($root: $root) {
 		display: block;
 		@media(max-width: #{$width--wide}) {
 			float: none;
@@ -81,7 +81,7 @@
 		}
 	}
 }
-@mixin Header__Nav($root: '.Header__Nav') {
+@mixin Nav_Header($root: '.Nav_Header') {
 	#{$root} {
 		display: none;
 		align-items: center;
@@ -105,21 +105,21 @@
 	}
 }
 @mixin Item__Nav__selected-background(
-	$root: '.Content__Nav',
+	$root: '.Nav_Content',
 	$background: lightgray
 ) {
-	@include in-Item__Nav($root: $root) {
+	@include in-Nav_Item($root: $root) {
 		&.selected {
 			background: $background;
 		}
 	}
 }
 @mixin Item__Nav__selected-underline(
-	$root: '.Content__Nav',
+	$root: '.Nav_Content',
 	$background: lightgray,
 	$height: 2px
 ) {
-	@include in-Item__Nav($root: $root) {
+	@include in-Nav_Item($root: $root) {
 		&.selected {
 			position: relative;
 			&::after {
@@ -135,8 +135,8 @@
 		}
 	}
 }
-@mixin Item__Nav__cancel-selected-underline($root: '.Content__Nav') {
-	@include in-Item__Nav($root: $root) {
+@mixin Item__Nav__cancel-selected-underline($root: '.Nav_Content') {
+	@include in-Nav_Item($root: $root) {
 		&.selected {
 			&::after {
 				display: none;
@@ -145,7 +145,7 @@
 	}
 }
 @mixin Content__Nav__slide-from-top(
-	$root: '.Content__Nav',
+	$root: '.Nav_Content',
 	$width--wide: 1400px,
 	$height: 100%
 ) {
@@ -156,14 +156,14 @@
 			top: -$height;
 			height: $height;
 			width: 100%;
-			&.opened__nav {
+			&.nav_opened {
 				top: 0;
 			}
 		}
 	}
 }
 @mixin Content__Nav__slide-from-right(
-	$root: '.Content__Nav',
+	$root: '.Nav_Content',
 	$width--wide: 1400px,
 	$width: 10rem
 ) {
@@ -174,7 +174,7 @@
 			right: -$width;
 			width: $width;
 		}
-		&.opened__nav {
+		&.nav_opened {
 			@media(max-width: #{$width--wide}) {
 				right: 0;
 			}
@@ -182,7 +182,7 @@
 	}
 }
 @mixin Content__Nav__slide-from-left(
-	$root: '.Content__Nav',
+	$root: '.Nav_Content',
 	$width--wide: 1400px,
 	$width: 10rem
 ) {
@@ -193,7 +193,7 @@
 			right: auto;
 			width: $width;
 		}
-		&.opened__nav {
+		&.nav_opened {
 			@media(max-width: #{$width--wide}) {
 				left: 0;
 			}
