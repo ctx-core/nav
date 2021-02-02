@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 15.1.4
+
+### Patch Changes
+
+- @ctx-core/store@24.0.5
+
 ## 15.1.3
 
 ### Patch Changes
