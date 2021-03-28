@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 15.1.31
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.4.2
+  - @ctx-core/object@17.4.1
+  - @ctx-core/store@24.1.14
+
 ## 15.1.30
 
 ### Patch Changes
