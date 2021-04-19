@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "15.1.43",
+	"version": "15.1.44",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@ctx-core/fontawesome": "workspace:^12.0.57",
-		"@ctx-core/sass": "workspace:^9.2.22",
+		"@ctx-core/sass": "workspace:^9.2.23",
 		"typescript": "^4.2.4"
 	},
 	"publishConfig": {
