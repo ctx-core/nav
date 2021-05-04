@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 15.1.70
+
+### Patch Changes
+
+- update dependencies
+
 ## 15.1.69
 
 ### Patch Changes
