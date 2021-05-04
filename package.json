@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "15.1.74",
+	"version": "15.1.75",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -30,11 +30,11 @@
 	"dependencies": {
 		"@ctx-core/function": "workspace:^17.6.0",
 		"@ctx-core/object": "workspace:^17.5.19",
-		"@ctx-core/store": "workspace:^24.7.11",
-		"svelte": "3.38.1"
+		"@ctx-core/store": "workspace:^24.7.12",
+		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "workspace:^12.0.63",
+		"@ctx-core/fontawesome": "workspace:^12.0.64",
 		"@ctx-core/sass": "workspace:^9.2.26",
 		"typescript": "^4.2.4"
 	},
