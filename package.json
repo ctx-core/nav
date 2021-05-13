@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "15.1.81",
+	"version": "15.1.82",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@ctx-core/function": "workspace:^17.8.3",
 		"@ctx-core/object": "workspace:^17.5.25",
-		"@ctx-core/store": "workspace:^24.7.18",
+		"@ctx-core/store": "workspace:^24.7.19",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
