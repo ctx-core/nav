@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "15.1.82",
+	"version": "15.1.83",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -28,14 +28,14 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/function": "workspace:^17.8.3",
-		"@ctx-core/object": "workspace:^17.5.25",
-		"@ctx-core/store": "workspace:^24.7.19",
+		"@ctx-core/function": "workspace:^17.8.4",
+		"@ctx-core/object": "workspace:^17.5.26",
+		"@ctx-core/store": "workspace:^24.7.20",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/fontawesome": "workspace:^12.0.66",
-		"@ctx-core/sass": "workspace:^9.2.29",
+		"@ctx-core/fontawesome": "workspace:^12.0.67",
+		"@ctx-core/sass": "workspace:^9.2.30",
 		"typescript": "^4.2.4"
 	},
 	"publishConfig": {
