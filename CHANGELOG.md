@@ -1,5 +1,18 @@
 # @ctx-core/nav
 
+## 15.2.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.9.0
+  - @ctx-core/object@17.6.0
+  - @ctx-core/store@24.8.0
+
 ## 15.1.84
 
 ### Patch Changes
