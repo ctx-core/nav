@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 15.2.3
+
+### Patch Changes
+
+- .npmignore: + ~
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.9.2
+  - @ctx-core/object@17.6.2
+  - @ctx-core/store@24.8.2
+
 ## 15.2.2
 
 ### Patch Changes
