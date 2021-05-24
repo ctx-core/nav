@@ -1,5 +1,18 @@
 # @ctx-core/nav
 
+## 15.4.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.10.0
+  - @ctx-core/object@18.1.0
+  - @ctx-core/store@24.9.0
+
 ## 15.3.3
 
 ### Patch Changes
