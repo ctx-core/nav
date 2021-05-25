@@ -1,5 +1,18 @@
 # @ctx-core/nav
 
+## 15.5.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.11.0
+  - @ctx-core/object@18.2.0
+  - @ctx-core/store@24.10.0
+
 ## 15.4.1
 
 ### Patch Changes
