@@ -1,1 +1,1 @@
-/home/brian/work/ctx-core/ctx-core/packages/nav/src/./ui/Nav_Content.svelte
+../../src/ui/Nav_Content.svelte
