@@ -1,8 +1,8 @@
 <script>
-import { nav_opened_b } from '../src'
+import { nav_opened$_b } from '../nav_opened$_b'
 export let ctx
-const nav_opened = nav_opened_b(ctx)
-const { close_nav } = nav_opened
+const nav_opened$ = nav_opened$_b(ctx)
+const { close_nav } = nav_opened$
 </script>
 
 <div class="Nav_Header header">
