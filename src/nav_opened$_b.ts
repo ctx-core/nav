@@ -1,9 +1,9 @@
 import { not } from '@ctx-core/function'
-import { _b, assign, B } from '@ctx-core/object'
+import { be_, assign, B } from '@ctx-core/object'
 import { Writable$, writable$ } from '@ctx-core/store'
 import type { nav_Ctx } from './nav_Ctx'
 const key = 'nav_opened$'
-export const nav_opened$_b:B<nav_Ctx, typeof key> = _b(key, ()=>{
+export const nav_opened$_b:B<nav_Ctx, typeof key> = be_(key, ()=>{
 	const nav_opened = writable$(false)
 	return assign(nav_opened, {
 		open_nav,
