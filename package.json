@@ -32,14 +32,14 @@
 	"dependencies": {
 		"@ctx-core/function": "workspace:^18.1.1",
 		"@ctx-core/object": "workspace:^19.1.1",
-		"@ctx-core/store": "workspace:^25.1.9",
+		"@ctx-core/store": "workspace:^25.1.10",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.10",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.11",
 		"@ctx-core/dev-tools": "workspace:^5.1.2",
-		"@ctx-core/fontawesome": "workspace:^13.0.13",
-		"@ctx-core/sass": "workspace:^10.0.8",
+		"@ctx-core/fontawesome": "workspace:^13.0.14",
+		"@ctx-core/sass": "workspace:^10.0.9",
 		"typescript": "^4.3.2"
 	},
 	"publishConfig": {
