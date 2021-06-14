@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "17.0.0",
+	"version": "17.0.1",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -21,10 +21,9 @@
 	"module": "./src/index.js",
 	"types": "./src/index.d.ts",
 	"scripts": {
-		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile && npm run symlink",
+		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile",
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"

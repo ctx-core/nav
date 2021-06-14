@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 17.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 17.0.0
 
 ### Major Changes
