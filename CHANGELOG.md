@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 17.0.7
+
+### Patch Changes
+
+- update dependencies
+
 ## 17.0.6
 
 ### Patch Changes
