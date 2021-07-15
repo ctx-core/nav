@@ -1,5 +1,18 @@
 # @ctx-core/nav
 
+## 18.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.0.0
+  - @ctx-core/object@21.0.0
+  - @ctx-core/store@27.0.0
+
 ## 17.0.46
 
 ### Patch Changes
