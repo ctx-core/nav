@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 18.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 18.0.2
 
 ### Patch Changes
