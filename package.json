@@ -38,8 +38,8 @@
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.27",
-		"@ctx-core/dev-tools": "workspace:^7.0.2",
-		"@ctx-core/fontawesome": "workspace:^15.0.3",
+		"@ctx-core/dev-tools": "workspace:^7.0.3",
+		"@ctx-core/fontawesome": "workspace:^15.0.4",
 		"@ctx-core/sass": "workspace:^12.0.2",
 		"typescript": "^4.3.5"
 	},
