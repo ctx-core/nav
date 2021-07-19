@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 18.0.18
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.0.12
+  - @ctx-core/object@21.0.12
+  - @ctx-core/store@27.0.11
+
 ## 18.0.17
 
 ### Patch Changes
