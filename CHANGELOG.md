@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 18.0.33
+
+### Patch Changes
+
+- update dependencies
+
 ## 18.0.32
 
 ### Patch Changes
