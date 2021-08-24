@@ -1,5 +1,13 @@
 # @ctx-core/nav
 
+## 18.0.54
+
+### Patch Changes
+
+- svelte: 3.42.2 -> 3.42.3
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.20
+
 ## 18.0.53
 
 ### Patch Changes
