@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 18.0.59
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.1.3
+  - @ctx-core/object@21.0.17
+  - @ctx-core/store@27.0.24
+
 ## 18.0.58
 
 ### Patch Changes
