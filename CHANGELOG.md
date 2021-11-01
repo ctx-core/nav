@@ -1,5 +1,17 @@
 # @ctx-core/nav
 
+## 18.0.91
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@20.2.2
+  - @ctx-core/object@21.0.21
+  - @ctx-core/store@27.0.34
+
 ## 18.0.90
 
 ### Patch Changes
