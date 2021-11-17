@@ -1,8 +1,5 @@
 import 'svelte'
-import Nav_Content from './Nav_Content.svelte'
-import Nav_Handle from './Nav_Handle.svelte'
-import Nav_Header from './Nav_Header.svelte'
-import Nav_Item from './Nav_Item.svelte'
-export {
-	Nav_Content, Nav_Handle, Nav_Header, Nav_Item
-}
+export * as Nav_Content from './Nav_Content.svelte'
+export * as Nav_Handle from './Nav_Handle.svelte'
+export * as Nav_Header from './Nav_Header.svelte'
+export * as Nav_Item from './Nav_Item.svelte'

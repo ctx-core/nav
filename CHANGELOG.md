@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 18.0.96
+
+### Patch Changes
+
+- lang=ts: Nav_Content,Nav_Handle,Nav_Header,Nav_Item
+
 ## 18.0.95
 
 ### Patch Changes
