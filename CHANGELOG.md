@@ -1,5 +1,29 @@
 # @ctx-core/nav
 
+## 18.0.99
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/function@20.2.7
+  - @ctx-core/object@21.0.26
+  - @ctx-core/store@27.0.40
+
+## 18.0.98
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/store@27.0.39
+  - @ctx-core/function@20.2.6
+  - @ctx-core/object@21.0.25
+
 ## 18.0.97
 
 ### Patch Changes
