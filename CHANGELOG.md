@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 18.0.102
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+- Updated dependencies
+  - @ctx-core/function@20.2.10
+  - @ctx-core/object@21.0.29
+  - @ctx-core/store@27.0.43
+
 ## 18.0.101
 
 ### Patch Changes
