@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 20.0.0
+
+### Major Changes
+
+- extracted @ctx-core/nav-ui-svelte
+
 ## 19.0.0
 
 ### Major Changes
