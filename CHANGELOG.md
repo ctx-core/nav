@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 20.0.5
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/function@20.2.15
+  - @ctx-core/object@22.0.3
+  - @ctx-core/store@27.0.50
+
 ## 20.0.4
 
 ### Patch Changes
