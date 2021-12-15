@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 20.0.2
+
+### Patch Changes
+
+- update dependencies
+
 ## 20.0.1
 
 ### Patch Changes
