@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 20.0.3
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/function@20.2.13
+  - @ctx-core/object@22.0.1
+  - @ctx-core/store@27.0.48
+
 ## 20.0.2
 
 ### Patch Changes
