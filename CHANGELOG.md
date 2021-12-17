@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 20.0.8
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/function@20.2.18
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 20.0.7
 
 ### Patch Changes
