@@ -1,5 +1,15 @@
 # @ctx-core/nav
 
+## 20.0.10
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/function@20.2.20
+  - @ctx-core/object@22.0.8
+  - @ctx-core/store@27.0.55
+
 ## 20.0.9
 
 ### Patch Changes
