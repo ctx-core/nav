@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "20.0.10",
+	"version": "21.0.0",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -36,17 +36,13 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/function": "workspace:^20.2.20",
-		"@ctx-core/object": "workspace:^22.0.8",
-		"@ctx-core/store": "workspace:^27.0.55",
-		"svelte": "^3.44.3"
+		"@ctx-core/nanostores": "workspace:^0.1.0",
+		"@ctx-core/object": "workspace:^22.0.8"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.96",
-		"@ctx-core/fontawesome": "workspace:^16.0.9",
-		"@ctx-core/sass": "workspace:^12.1.16",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.120",
+		"@swc/core": "^1.2.121",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
