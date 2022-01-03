@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "21.0.6",
+	"version": "21.0.7",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -36,8 +36,8 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "workspace:^0.3.1",
-		"@ctx-core/object": "workspace:^22.0.9"
+		"@ctx-core/nanostores": "workspace:^0.3.2",
+		"@ctx-core/object": "workspace:^22.0.10"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
