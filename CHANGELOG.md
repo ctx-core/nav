@@ -1,5 +1,14 @@
 # @ctx-core/nav
 
+## 21.0.8
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+
 ## 21.0.7
 
 ### Patch Changes
