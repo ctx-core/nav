@@ -1,7 +1,6 @@
-import { be_, assign, B } from '@ctx-core/object'
+import { assign, B, be_ } from '@ctx-core/object'
 import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
-const key = 'nav_opened$'
-export const nav_opened$_:B<nav_opened$_T> = be_(key, ()=>{
+export const nav_opened$_:B<nav_opened$_T> = be_('nav_opened$', ()=>{
 	const nav_opened$ = atom$(false)
 	return assign(nav_opened$, {
 		open_nav,
