@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 22.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
 ## 22.0.26
 
 ### Patch Changes
