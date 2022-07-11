@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "22.1.0",
+	"version": "22.1.1",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -34,12 +34,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^1.4.1",
+		"@ctx-core/nanostores": "^1.4.2",
 		"@ctx-core/object": "^22.2.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.211",
+		"@swc/core": "^1.2.212",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
