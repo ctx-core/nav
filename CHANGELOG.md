@@ -1,5 +1,12 @@
 # @ctx-core/nav
 
+## 22.2.0
+
+### Minor Changes
+
+- - nav_opened**toggle,nav_opened**open,nav_opened\_\_close
+- .js + .d.ts instead of .ts
+
 ## 22.1.1
 
 ### Patch Changes
