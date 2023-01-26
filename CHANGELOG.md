@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 22.2.18
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 22.2.17
 
 ### Patch Changes
