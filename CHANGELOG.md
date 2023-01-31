@@ -1,5 +1,14 @@
 # @ctx-core/nav
 
+## 22.2.20
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/nanostores@2.2.17
+  - @ctx-core/object@24.1.1
+
 ## 22.2.19
 
 ### Patch Changes
