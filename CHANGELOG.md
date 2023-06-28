@@ -1,5 +1,13 @@
 # @ctx-core/nav
 
+## 22.2.117
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^5.2.1 -> ^5.2.2
+- Updated dependencies
+  - @ctx-core/nanostores@5.2.3
+
 ## 22.2.116
 
 ### Patch Changes
