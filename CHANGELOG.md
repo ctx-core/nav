@@ -1,5 +1,28 @@
 # @ctx-core/nav
 
+## 23.0.0
+
+### Major Changes
+
+- nav*opened$*:
+
+      - nav_opened__toggle
+      - nav_opened__open
+      - nav_opened__close
+
+- - nav_opened\_\_T
+
+### Minor Changes
+
+- - nav*opened*,nav_opened\_\_set
+
+  nav*opened$*: aliased by nav_opened\_\_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@28.0.5
+
 ## 22.2.126
 
 ### Patch Changes
