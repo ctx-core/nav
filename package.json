@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "23.0.7",
+	"version": "23.0.8",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -35,14 +35,14 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^6.0.12",
-		"@ctx-core/object": "^28.2.0"
+		"@ctx-core/nanostores": "^6.0.13",
+		"@ctx-core/object": "^28.2.1"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
 		"tslib": "^2.6.2",
-		"tsx": "^3.13.0",
+		"tsx": "^3.14.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
