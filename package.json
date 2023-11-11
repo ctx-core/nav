@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "23.0.17",
+	"version": "23.1.0",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -18,11 +18,14 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"modules": "./src/index.js",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"modules": "./index.js",
+	"files": [
+		"*.d.ts",
+		"./nav_opened"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -35,8 +38,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^7.0.8",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/object": "^30.0.0",
+		"@ctx-core/nanostores": "^7.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
