@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "23.1.1",
+	"version": "23.1.2",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -21,6 +21,7 @@
 	"modules": "./index.js",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./nav_opened"
 	],
 	"types": "./index.d.ts",
@@ -38,8 +39,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^30.1.1",
-		"@ctx-core/nanostores": "^7.1.2"
+		"@ctx-core/object": "^30.1.2",
+		"@ctx-core/nanostores": "^7.1.3"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",

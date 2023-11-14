@@ -1,5 +1,14 @@
 # @ctx-core/nav
 
+## 23.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/nanostores@7.1.3
+  - @ctx-core/object@30.1.2
+
 ## 23.1.1
 
 ### Patch Changes
