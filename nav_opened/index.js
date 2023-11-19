@@ -1,12 +1,12 @@
-import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
+import { be_atom_triple_ } from '@ctx-core/nanostores'
+/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
+/** @typedef {import('@ctx-core/object').Ctx} */
 export const [
 	nav_opened$_,
 	nav_opened_,
 	nav_opened__set,
-] = be_atom_triple_('nav_opened', ctx=>{
-	return atom_(false)
-})
+] = /** @type {be_atom_triple_T<boolean>} */ be_atom_triple_(()=>false)
+	.config({ id: 'nav_opened' })
 export { nav_opened$_ as nav_opened__ }
 /**
  * @param {Ctx}ctx
