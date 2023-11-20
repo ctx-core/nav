@@ -5,8 +5,9 @@ export const [
 	nav_opened$_,
 	nav_opened_,
 	nav_opened__set,
-] = /** @type {be_atom_triple_T<boolean>} */ be_atom_triple_(()=>false)
-	.config({ id: 'nav_opened' })
+] = /** @type {be_atom_triple_T<boolean>} */ be_atom_triple_(()=>
+	false,
+{ id: 'nav_opened' })
 export { nav_opened$_ as nav_opened__ }
 /**
  * @param {Ctx}ctx
