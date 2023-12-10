@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "23.1.46",
+	"version": "23.1.47",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -40,8 +40,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/object": "^31.1.24",
-		"@ctx-core/nanostores": "^9.0.29"
+		"@ctx-core/object": "^31.1.25",
+		"@ctx-core/nanostores": "^9.0.30"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
