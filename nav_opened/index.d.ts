@@ -1,5 +1,5 @@
 import type { be_atom_triple_T } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 export declare const [
 	nav_opened$_,
 	nav_opened_,

@@ -1,6 +1,7 @@
+/// <reference types="ctx-core" />
 import { be_atom_triple_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
-/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {be_atom_triple_T} */
+/** @typedef {Ctx} */
 export const [
 	nav_opened$_,
 	nav_opened_,
