@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "23.1.56",
+	"version": "23.1.57",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -41,7 +41,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/object": "^31.1.34",
-		"@ctx-core/nanostores": "^10.0.0"
+		"@ctx-core/nanostores": "^10.0.1"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
