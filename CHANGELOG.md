@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 24.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 23.1.71
 
 ### Patch Changes
