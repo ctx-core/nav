@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "24.0.0",
+	"version": "24.0.1",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -36,11 +36,12 @@
 		"exec": "$@",
 		"prepublishOnly": "pnpm clean && pnpm build && pnpm test",
 		"test": "pnpm test:unit && pnpm test:types",
-		"test:types": "check-dts", "test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test:types": "check-dts",
+		"test:unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.5.0"
+		"ctx-core": "^5.6.1"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
