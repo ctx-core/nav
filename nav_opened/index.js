@@ -1,7 +1,7 @@
 /// <reference types="ctx-core" />
 import { be_sig_triple_ } from 'ctx-core/rmemo'
 /** @typedef {be_sig_triple_T} */
-/** @typedef {Ctx} */
+/** @typedef {ctx_T} */
 export const [
 	nav_opened$_,
 	nav_opened_,
@@ -12,19 +12,19 @@ export const [
 	{ id: 'nav_opened' })
 export { nav_opened$_ as nav_opened__ }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function nav_opened__toggle(ctx) {
 	nav_opened__set(ctx, !nav_opened_(ctx))
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function nav_opened__open(ctx) {
 	nav_opened__set(ctx, true)
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function nav_opened__close(ctx) {
 	nav_opened__set(ctx, false)
