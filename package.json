@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/nav",
-	"version": "24.0.90",
+	"version": "24.0.91",
 	"description": "ctx-core nav",
 	"keywords": [
 		"ctx-core",
@@ -16,7 +16,11 @@
 		"url": "https://github.com/ctx-core/nav.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-nav@briantakita.me"
+	},
 	"type": "module",
 	"modules": "./index.js",
 	"files": [
@@ -41,7 +45,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0"
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
