@@ -1,5 +1,5 @@
 /// <reference types="ctx-core" />
-import { be_sig_triple_ } from 'ctx-core/rmemo'
+import { id_be_sig_triple_ } from 'ctx-core/rmemo'
 /** @typedef {be_sig_triple_T} */
 /** @typedef {ctx_T} */
 export const [
@@ -7,9 +7,9 @@ export const [
 	nav_opened_,
 	nav_opened__set,
 ] = /** @type {be_sig_triple_T<boolean>} */
-	be_sig_triple_(()=>
-		false,
-	{ id: 'nav_opened' })
+	id_be_sig_triple_(
+		'nav_opened',
+		()=>false)
 export { nav_opened$_ as nav_opened__ }
 /**
  * @param {ctx_T}ctx
