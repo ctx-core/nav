@@ -1,5 +1,11 @@
 # @ctx-core/nav
 
+## 24.0.104
+
+### Patch Changes
+
+- ctx-core: ^7.1.0 -> ^7.1.1
+
 ## 24.0.103
 
 ### Patch Changes
